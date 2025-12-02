@@ -23,7 +23,7 @@ NormAL LoRA introduces a regularized and adaptive variant of LoRA tuning, levera
 ### 1. Clone the repo
 
 ```bash
-git clone [https://github.com/SamsungLabs/Norm-AL-LoRA.git]
+git clone https://github.com/SamsungLabs/Norm-AL-LoRA.git
 cd Norm-AL-LoRA
 ```
 
@@ -134,7 +134,10 @@ This helps diagnose how much of the rank budget was effectively utilized post-re
 If you use this code or ideas from the NormAL LoRA paper, please cite us:
 
 ```bibtex
-@article{aastiknormal,
+@inproceedings{meghana2025normal,
   title={NormAL LoRA: What is the perfect size?},
-  author={Aastik, Meghana Topu and Kulkarni, Chinmay and Sahu, Pragya Paramita}
+  author={Meghana, Topu Sai and Kulkarni, Chinmay Prakash and Sahu, Pragya Paramita and others},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
+  pages={19716--19731},
+  year={2025}
 }
